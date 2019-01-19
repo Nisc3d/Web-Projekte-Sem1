@@ -5,4 +5,24 @@
 }
 .Menü{
     text-align: center;
+    font-family: Gargi;
+    font-size: 130%;
 }
+
+.menutab{
+    display: inline;
+    padding: 3%;
+}
+
+
+h3{
+    font-family: Gargi;
+}
+
+.kgk{
+    text-align: right;
+}
+
+
+
+
