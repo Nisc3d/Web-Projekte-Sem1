@@ -23,6 +23,12 @@ h3{
     text-align: right;
 }
 
+.links{
+    position:relative;
+    left: 15%;
+}
 
-
-
+.rechts {
+    position:relative;
+    right: 15%;
+}
