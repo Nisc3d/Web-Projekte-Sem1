@@ -7,7 +7,34 @@
     <title>Kontaktformular</title>
 </head>
 <body>
+<img class="Logo" src="media/samsunglogo.png" height="53" width="160" alt="Samsung Logo">
+<div class="Menü">
+    <ul>
+        <li class="menutab"><a href="index.html">Startseite</a></li>
+        <li class="menutab"><a href="kuehlschraenke/kuehlschraenke.html">Kühlschränke</a></li>
+        <li class="menutab"><a href="smartphones/smartphones.html">Smartphones</a></li>
+        <li class="menutab"><a href="impressum.html">Impressum</a></li>
+        <li class="menutab"><a href="kontaktformular.html">Kontaktformular</a></li>
+    </ul>
+</div>
 
+<br/><br/><br/>
+
+<div class="kontakt">
+    <form id="kontaktformular" name="kontaktformular" action="">
+        <div>
+            <label for="absender">Ihre E-Mail-Adresse:</label>
+            <input type="text" id="absender" name="absender"/>
+        </div>
+        <div>
+            <label for="nachricht">Ihre Nachricht:</label>
+            <textarea id="nachricht" name="nachricht" cols="20" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Abschicken"/>
+        </div>
+    </form>
+</div>
 
 </body>
 </html>
